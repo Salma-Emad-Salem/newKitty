@@ -233,3 +233,28 @@ a.primary-cta {
         }
     }
 }
+@media (max-width: 450px) {
+    .cat {
+        position: relative;
+        height: 300px;
+        width: 100%;
+        img {
+            max-width: 220px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .inner-circle {
+            background: #FFEBC3;
+            width: 200px;
+            height: 200px;
+            z-index: -1;
+        }
+        .outer-circle {
+            background: white;
+            width: 400px;
+            height: 400px;
+            z-index: -2;
+        }
+    }
+}
