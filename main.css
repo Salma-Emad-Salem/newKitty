@@ -100,7 +100,8 @@ a.primary-cta {
     margin-top: 3em;
 
     img {
-        width: 70%;
+        max-width: 70%;
+        min-width: 220px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
